@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="274d4290-1cda-42cf-a804-59115ec50297" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/foods_and_drinks/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/main_page/show_detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/main_page/show_list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/components/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/components/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/tags/all_products.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/tags/drink_products.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/tags/meal_products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/films_blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/films_blog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/films_blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/films_blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_app/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/show_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/show_detail.html" afterDir="false" />
-    </list>
+    <list default="true" id="274d4290-1cda-42cf-a804-59115ec50297" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +72,7 @@
       <workItem from="1733387269785" duration="51000" />
       <workItem from="1733387578472" duration="6825000" />
       <workItem from="1733719358759" duration="7186000" />
-      <workItem from="1733998814197" duration="2149000" />
+      <workItem from="1733998814197" duration="2480000" />
     </task>
     <servers />
   </component>
