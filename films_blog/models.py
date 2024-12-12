@@ -23,3 +23,24 @@ class FilmModel(models.Model):
 
     def __str__(self):
         return self.title
+
+class Review(models.Model):
+    STARS = (
+        ('⭐', '⭐'),
+        ('⭐⭐', '⭐⭐'),
+        ('⭐⭐⭐', '⭐⭐⭐'),
+        ('⭐⭐⭐⭐', '⭐⭐⭐⭐'),
+        ('⭐⭐⭐⭐⭐', '⭐⭐⭐⭐⭐'),
+
+    )
+    film = models.ForeignKey(FilmModel, on_delete=models.CASCADE, related_name='reviews')
+    created_at = models.DateField(auto_now_add=True)
+    text_review = models.TextField(verbose_name='Напишите отзыв о фильме')
+    stars = models.CharField(max_length=100, verbose_name="Поставьте оценку", choices=STARS, default='⭐')
+
+    class Meta:
+        verbose_name = 'Отзыв'
+        verbose_name_plural = 'Отзывы'
+
+    def __str__(self):
+        return F'{self.film}-{self.stars}'
