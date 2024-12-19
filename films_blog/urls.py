@@ -7,4 +7,6 @@ urlpatterns = [
     path('about/', views.about, name='about'),
     path('emoji/',views.emoji, name='emoji' ),
     path('photo/', views.image_proger_view, name='photo'),
+    path('search/', views.SearchView.as_view(), name='search'),
+
 ]

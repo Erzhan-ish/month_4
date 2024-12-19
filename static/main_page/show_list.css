@@ -1,5 +1,4 @@
-
-        body {
+body {
             display: flex;
             flex-direction: column;
             min-height: 100vh; /* Минимальная высота для всего экрана */
@@ -44,3 +43,4 @@
         .card {
             height: auto; /* Убедитесь, что высота карточки автоматически адаптируется */
         }
+
